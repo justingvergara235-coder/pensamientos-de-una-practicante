@@ -1,33 +1,36 @@
 # Pensamientos de una practicante de Educación Infantil
 
-Portafolio personal para la asignatura **Práctica de enseñanza y aprendizaje de la lectura y la escritura**. Desarrollado con HTML, CSS y JavaScript, compatible con GitHub Pages.
+Sitio web académico estático para GitHub Pages. Está construido con HTML, CSS y JavaScript, sin dependencias de servidor.
 
-## Incluye
-- Diseño editorial con colores pastel fríos, detalles tipo cuaderno y una sola fotografía principal.
-- Secciones para lectura y escritura, experiencias de práctica, infancia, sociedad, preguntas abiertas y lecturas.
-- Menú móvil, navegación por secciones, preguntas desplegables y opción de guardar preguntas en el navegador.
-- Orientaciones para redactar reflexiones sin inventar experiencias.
-- Plantillas de referencia APA 7.ª edición, sin referencias bibliográficas inventadas.
+## Páginas
 
-## Publicar o actualizar
-1. En el repositorio de GitHub, abre **Add file → Upload files**.
-2. Sube `index.html`, `style.css`, `script.js` y `README.md` directamente a la raíz.
-3. Pulsa **Commit changes**.
-4. En **Settings → Pages**, selecciona **Deploy from a branch**, rama `main`, carpeta `/ (root)`.
-5. Espera a que termine la publicación.
+- `index.html`: portada e introducción del portafolio.
+- `sobre-mi.html`: presentación personal de Gabriela Vélez Cuéllar.
+- `experiencia.html`: primera parte de la experiencia de práctica.
+- `reflexion.html`: continuación de la reflexión, imagen de aprendizaje al aire libre y referencias del primer apartado.
+- `escuela.html`: segundo apartado, “Lo que la escuela espera”.
+- `autoras.html`: presentación de las cuatro autoras con enlaces a perfiles académicos verificables y espacios reservados para retratos.
+- `referencias.html`: bibliografía general complementaria.
 
-## Editar
-- `index.html`: textos, preguntas y secciones.
-- `style.css`: colores, tipografías y diseño.
-- `script.js`: menú y guardado local de preguntas.
+## Publicar en GitHub Pages
 
-Busca textos como “ESPACIO DE REFLEXIÓN” o “Completar con la lectura del curso” para encontrar las orientaciones que debes sustituir por tus experiencias y análisis verificados.
+1. Extrae el ZIP.
+2. Sube directamente a la raíz del repositorio todos los archivos HTML, `style.css`, `app.js` y la carpeta `assets`.
+3. En Settings → Pages, selecciona `Deploy from a branch`, rama `main` y carpeta `/(root)`.
+4. Guarda y espera a que termine la publicación.
 
-## Fotografía
-La portada utiliza una fotografía real de Unsplash: “A child drawing on orange paper at a wooden table with craft supplies”, de Compagnons (@sigmund), disponible bajo la licencia de Unsplash:
-https://unsplash.com/photos/child-drawing-on-paper-at-table-TJxotQTUr8o
+## Interactividad
 
-La imagen se carga desde el CDN de Unsplash. Para guardarla localmente, descárgala desde la página de origen y cambia el `src` de `index.html`.
+- Menú adaptable a móvil.
+- Búsqueda de términos en la página actual (escribe y presiona Enter).
+- Modo “Editar textos” para modificar los bloques habilitados; “Guardar” conserva las modificaciones en el navegador de ese dispositivo y página.
+- “Mi cuaderno” permite crear, buscar, editar, eliminar y descargar notas.
+- “Descargar página” genera una copia de lectura en texto plano.
+- Referencias plegables y enlaces externos.
 
-## Nota académica
-Los textos guía son orientaciones, no experiencias atribuidas a la estudiante. Completa el portafolio con observaciones propias y verifica las lecturas originales antes de añadir citas o referencias APA 7. Evita publicar nombres o datos que identifiquen a niños sin autorización adecuada.
+## Notas importantes
+
+- Las notas y los cambios de texto se guardan localmente en el navegador y no se sincronizan entre dispositivos.
+- Los retratos de las autoras están reservados hasta poder integrar archivos de imagen directos y verificables; los enlaces llevan a perfiles académicos o editoriales de consulta. No se usan rostros generados ni fotografías de identidad dudosa.
+- La referencia de Emilia Ferreiro se conserva como la proporcionó la estudiante y se marca para cotejarla con el documento asignado antes de la entrega.
+- Las tres fotografías suministradas por la estudiante se conservan en `assets`.
